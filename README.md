@@ -11,9 +11,7 @@ My goal here was to practice API calls and their integration within HTML and van
 * Vanilla Javascript
 
 ## Demo
-Overview
-
-
+![Overview](https://github.com/malvesbertoni/fetch-a-dog/blob/master/public/Fetch-A-Doggo-Google-Chrome-2021-02-03-16-16-15.gif)
 
 ## Credits
 https://dog.ceo/dog-api/
