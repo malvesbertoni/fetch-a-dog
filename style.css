@@ -17,14 +17,16 @@ body {
     justify-content: center;
     align-items: center;
 
-    border: 10px solid rgb(88, 50, 3);
-
     font-family: 'Kalam', cursive;
 }
 
 .title {
     font-weight: 700;
     font-size: 50px;
+}
+
+.title h1 {
+    margin-bottom: 50px;
 }
 
 .fetch-button {
@@ -35,7 +37,7 @@ body {
     font-weight: 300;
     font-size: 40px;
 
-    border: 2px solid black;
+    border: 5px solid rgba(61, 61, 61, 0.452);
     border-radius: 15%;
 
     cursor: pointer;
@@ -47,4 +49,15 @@ body {
 
 .fetch-button:active {
     background-color: rgb(139, 78, 49);
+}
+
+.doggo-image {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 70px;
+}
+
+#image-id {
+    margin: 10px 10px;
 }
