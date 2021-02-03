@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&display=swap');
+/* font-family: 'Kalam', cursive; */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2px 1px;
+    background-color: rgb(238, 233, 227);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    border: 10px solid rgb(88, 50, 3);
+
+    font-family: 'Kalam', cursive;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.fetch-button {
+    background-color: rgb(241, 132, 81);
+    color: black;
+    
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    font-size: 40px;
+
+    border: 2px solid black;
+    border-radius: 15%;
+
+    cursor: pointer;
+}
+
+.fetch-button:hover {
+    background-color: rgb(248, 152, 108);
+}
+
+.fetch-button:active {
+    background-color: rgb(139, 78, 49);
+}
